@@ -1,0 +1,97 @@
+.top {
+    margin: 0 200px;
+    width: 960px;
+}
+.top h1{
+    display: inline;
+    background: #4aaaa5;
+    color:#ffffff;
+    padding: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.top a{
+    display: block;
+    float: right;
+    padding: 0 20px;
+    border-right: 1px solid grey;
+    margin: 10px 10px 20px 10px;
+    color: grey;
+    text-decoration: none;
+}
+.bg {
+    /* background: yellow; */
+    background-image: url(../Mathi-Homework1/assets/images/hotel-wallpaper.png);
+    border-top: 1px solid grey;
+    border-bottom: 2px solid blue;
+    border-color: #dddddd;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.main {
+    border: 1px solid grey;
+    width: 960px;
+    margin: 50px 200px;
+    padding: 20px;
+    background: white;
+}
+.main h1{
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+img {
+    width:250px;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+main p{
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.box-set{
+    position: relative;
+    width: 960px;
+}
+.box {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 50px;
+    background-position: center;
+}
+.first{
+    background-image: url("../images/caveolin.jpg");  
+}
+.second{
+    background-image: url("../images/yard.jpg");
+}
+.third{
+    background-image: url("../images/wd.jpg");
+}
+.Fourth{
+    background-image: url("../images/ecom.jpg");
+}
+.fifth{
+    background-image: url("../images/rment.jpg");
+}
+.box p {
+    color: white;
+    background:  #4aaaa5;
+    text-align: center;
+    padding: 40px, auto;
+    margin-top: 150px;
+    height: 40px;
+}
+footer{
+    text-align: center;
+    background-color: #777777;
+    border-top: 3px solid #4aaaa5;
+    height: 30px;
+}
