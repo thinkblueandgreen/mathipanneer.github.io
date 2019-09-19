@@ -55,7 +55,7 @@ img {
     margin: 20px;
 }
 .main p{
-    display: inline-block;
+    display: block;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
